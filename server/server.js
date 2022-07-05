@@ -30,10 +30,3 @@ app.listen(port, () => {
     console.log("Listening on port :" + port);
 
 });
-
-
-// const arr = [{a:[1, 2], b:1, c:2}, {a:[3, 4], b:1, c:2 }, { a:[1, 2], b:1, c:2}];
-
-// const names = arr.filter((name) => {
-//     a.find()
-// })
