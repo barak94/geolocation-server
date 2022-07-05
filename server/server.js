@@ -12,7 +12,7 @@ app.get("/distance", (req, res) => {
 
   if (!req.query.source || !req.query.destination) {
     return res.send({
-      error: "You must to provide a search term"
+      error: "You must to provide a source and destination"
     })
   }
 
