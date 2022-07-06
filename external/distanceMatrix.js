@@ -3,7 +3,7 @@ const request = require('request');
 
 const distanceMatrix = (source, destination, callback) => {
 
-    const url = "https://maps.googleapis.com/maps/api/distancematrix/json?destinations=" + source + "&origins=" + destination + "&units=metric&key=AIzaSyDED3_IOsZbSPKGYXZjhpzB4vuL0ElsF4k";
+    const url = "https://maps.googleapis.com/maps/api/distancematrix/json?destinations=" + source + "&origins=" + destination + "&units=metric&key=";
 
     request({ url, json: true }, (error, res) => {
         if (error) {
