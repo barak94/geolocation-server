@@ -48,7 +48,7 @@ app.get("/distance", (req, res) => {
           dis.save().then(() => {
             console.log("add");
           }).catch((error) => {
-            res.status(500).send(error);
+            console.log("error");
           })
         })
       } else {
