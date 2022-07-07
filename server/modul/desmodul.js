@@ -1,7 +1,11 @@
 const mongoose = require("mongoose");
 
 const schema = new mongoose.Schema({
-    
+
+    _id: {
+        type: String,
+        required: true
+    },
     source1: {
         type: String,
         required: true
@@ -20,4 +24,4 @@ const schema = new mongoose.Schema({
     }
 })
 
-module.exports = mongoose.model("Distance", schema);
+module.exports = mongoose.model("Distance2", schema);
